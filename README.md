@@ -2,7 +2,8 @@
 
 # Лабораторная работа 1
 ## Задание 1
-C:\Users\Роман\misis_python\images\lab01\img01.png
+<img width="1875" height="167" alt="img01" src="https://github.com/user-attachments/assets/18e48c84-e8ff-4ee5-bdc2-0e9f2da4fd1f" />
+
 ## Задание 2
 C:\Users\Роман\misis_python\images\lab01\img02.png
 ## Задание 3
