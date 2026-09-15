@@ -1,4 +1,3 @@
-<img width="1162" height="717" alt="img04" src="https://github.com/user-attachments/assets/d94c02b5-e763-4cb3-ab38-8e2151c70dd1" /><img width="1162" height="717" alt="img04" src="https://github.com/user-attachments/assets/ecce62dd-993d-4e2f-ba23-b781b3eaf9f2" /># misis_python
 
 # Лабораторная работа 1
 ## Задание 1
