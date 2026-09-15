@@ -7,7 +7,7 @@
 <img width="1908" height="1030" alt="img02" src="https://github.com/user-attachments/assets/a8c0a37f-0542-41c1-a73c-23a509a3f4d2" />
 
 ## Задание 3
-<img width="1103" height="898" alt="img03" src="https://github.com/user-attachments/assets/856d365a-44df-4354-8505-72d7d0e3e952" />
+<img width="960" height="951" alt="image" src="https://github.com/user-attachments/assets/412fd851-6bbb-4ce8-82c3-7a08c7ed8561" />
 
 ## Задание 4
 <img width="1162" height="717" alt="img04" src="https://github.com/user-attachments/assets/e9c9fe57-d9a8-4dd8-a516-93b1cdd9f491" />
