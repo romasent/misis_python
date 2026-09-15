@@ -3,7 +3,6 @@
 ## Задание 1
 ![Uploading image.png…]()
 
-
 ## Задание 2
 <img width="1908" height="1030" alt="img02" src="https://github.com/user-attachments/assets/a8c0a37f-0542-41c1-a73c-23a509a3f4d2" />
 
