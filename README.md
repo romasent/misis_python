@@ -1,7 +1,7 @@
 
 # Лабораторная работа 1
 ## Задание 1
-<img width="733" height="162" alt="image" src="https://github.com/user-attachments/assets/a6d5b51b-2c47-4d72-b097-f6083d59201b" />
+![Uploading image.png…]()
 
 ## Задание 2
 <img width="439" height="121" alt="image" src="https://github.com/user-attachments/assets/12a616b8-01bd-4d44-95fc-ed96c7a52a59" />
