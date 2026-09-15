@@ -2,7 +2,7 @@ cnt = int(input())
 och = 0
 zaoch = 0
 
-for _ in range(cnt):  # Исправили n на cnt
+for _ in range(cnt): 
     info = input().split()
     last_info = info[-1]
     if last_info == "True":
