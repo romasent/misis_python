@@ -4,7 +4,7 @@ ini = ""
 
 for i in range(len(fio)):
     if fio[i] in up:
-        ini += fio[i] + "."
+        ini += fio[i]
 
-print('Инициалы:', ini)
+print('Инициалы:', ini + '.')
 print('Длина (символов):', len(" ".join(fio.split())))
