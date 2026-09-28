@@ -21,7 +21,7 @@ def flatten(mat: list[list | tuple]) -> list:
             sp.append(item)
     return sp
 
-
+# Тесты min_max
 print(min_max(3, -1, 5, 5, 0))
 print(min_max(42))
 try:
@@ -30,11 +30,13 @@ except ValueError as e:
     print(f"ValueError: {e}")
 print(min_max(1.5, 2, 2.0, -3.1))
 
+#Тесты unique_sorted
 print(unique_sorted(3, 1, 2, 1, 3))
 print(unique_sorted())
 print(unique_sorted(-1, -1, 0, 2, 2))
 print(unique_sorted(1.0, 1, 2.5, 2.5, 0))
 
+#Тесты flatten
 print(flatten([[1, 2], [3, 4]]))
 print(flatten([]))
 print(flatten([[1], [], [2, 3]]))
