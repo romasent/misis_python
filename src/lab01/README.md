@@ -2,7 +2,7 @@
 
 # Лабораторная работа 1
 ## Задание 1
-images/lab01/img01.png
+[images/lab01/img01.png](https://github.com/romasent/misis_python/blob/3b4f0c2c78b0e6174a0d7bbaaa70636efadc24a0/images/lab01/img01.png)
 
 ## Задание 2
 <img width="860" height="338" alt="image" src="https://github.com/user-attachments/assets/6a0b229e-847d-4c47-aa78-e519832f57ee" />
