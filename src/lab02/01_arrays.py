@@ -17,12 +17,10 @@ def min_max(nums: list[float | int]) -> tuple[float | int, float | int]:
 def unique_sorted(nums: list[float | int]) -> list[float | int]:
     unique = []
 
-    # Убираем повторяющиеся элементы
     for num in nums:
         if num not in unique:
             unique.append(num)
 
-    # Сортировка без sorted() и sort()
     for i in range(len(unique)):
         for j in range(i + 1, len(unique)):
             if unique[i] > unique[j]:
