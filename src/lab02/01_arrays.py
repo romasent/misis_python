@@ -46,6 +46,7 @@ def flatten(mat: list[list | tuple]) -> list:
 print(min_max([3, -1, 5, 5, 0]))
 print(min_max([42]))
 
+# Вывод ValueError при смешанном вводе строки
 try:
     print(min_max([]))
 except ValueError as e:
@@ -66,6 +67,7 @@ print(flatten([[1, 2], [3, 4]]))
 print(flatten([]))
 print(flatten([[1], [], [2, 3]]))
 
+# Вывод TypeError при смешанном вводе строки
 try:
     print(flatten([[1, 2], "ab"]))
 except TypeError as e:
