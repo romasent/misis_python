@@ -1,5 +1,5 @@
 # Лабораторная работа 2
-### Ошибки обрабатываются с помощью методов try/except для уменьшения traceback.
+### Ошибки обрабатываются с помощью методов try/except для уменьшения traceback и понятности кода.
 ## Задание 1 arrays.py
 ### min_max, unique_sorted, flatten
 ![](../../images/lab02/img01.png)
