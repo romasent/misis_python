@@ -1,11 +1,11 @@
-def transpose(mat):
+def transpose(mat: list[list[float | int]]) -> list[list]:
     if mat and any(len(row) != len(mat[0]) for row in mat):
         raise ValueError("рваная матрица")
 
     return [list(col) for col in zip(*mat)]
 
 
-def row_sums(mat):
+def row_sums(mat: list[list[float | int]]) -> list[float]:
     if not mat:
         return []
 
@@ -15,7 +15,7 @@ def row_sums(mat):
     return [sum(row) for row in mat]
 
 
-def col_sums(mat):
+def col_sums(mat: list[list[float | int]]) -> list[float]:
     if not mat:
         return []
 
