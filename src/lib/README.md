@@ -5,11 +5,9 @@
 import sys
 import os
 
-# Добавляем папку lib в sys.path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "lib"))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "lib")) # добавляем папку lib в системную папку
 
 from text import normalize, tokenize, count_freq, top_n
-
 
 def main() -> None:
     text = sys.stdin.read()
