@@ -13,7 +13,7 @@
 ![](../../images/lab03/img03.png)
 
 # КОД
-```
+```python
 # ЛР3: normalize, tokenize, count_freq, top_n
 import re
 
