@@ -13,7 +13,7 @@
 ![](../../images/lab03/img03.png)
 
 # КОД
-
+'''
 # ЛР3: normalize, tokenize, count_freq, top_n
 import re
 
@@ -58,7 +58,7 @@ def top_n(freq: dict[str, int], n: int = 5) -> list[tuple[str, int]]:
 print(top_n(count_freq(["a","b","a","c","b","a"]), n = 2))
 print(top_n(count_freq(["bb","aa","bb","aa","cc"]), n = 2))
 
-'''
+
 #### normalize
 assert normalize("ПрИвЕт\nМИр\t") == "привет мир"
 assert normalize("ёжик, Ёлка") == "ежик, елка"
