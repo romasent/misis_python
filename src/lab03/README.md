@@ -58,7 +58,6 @@ def top_n(freq: dict[str, int], n: int = 5) -> list[tuple[str, int]]:
 print(top_n(count_freq(["a","b","a","c","b","a"]), n = 2))
 print(top_n(count_freq(["bb","aa","bb","aa","cc"]), n = 2))
 
-'''
 # normalize
 assert normalize("ПрИвЕт\nМИр\t") == "привет мир"
 assert normalize("ёжик, Ёлка") == "ежик, елка"
@@ -76,5 +75,5 @@ assert top_n(freq, 2) == [("a",3), ("b",2)]
 # тай-брейк по слову при равной частоте
 freq2 = count_freq(["bb","aa","bb","aa","cc"])
 assert top_n(freq2, 2) == [("aa",2), ("bb",2)]
-'''
+
 ```
