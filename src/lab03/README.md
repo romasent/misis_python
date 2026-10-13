@@ -1,5 +1,6 @@
 # misis_python
 # Лабораторная работа 3
+# `Задание А: normalize, tokenize, count_freq | top_n`
 
 ## Задание 1
 ### `normalize`
@@ -41,7 +42,7 @@ top_n(..., n=2) → [("aa",2), ("bb",2)] (алфавитная сортиров�
 
 ![](../../images/lab03/img03.png)
 
-# Задание B: text_stats
+# `Задание B: text_stats`
 ## Вывод в консоли
 #### Входные данные: 
 
