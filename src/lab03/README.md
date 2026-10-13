@@ -40,6 +40,9 @@ top_n(..., n=2) → [("a",3), ("b",2)]
 top_n(..., n=2) → [("aa",2), ("bb",2)] (алфавитная сортировка при равенстве).
 
 ![](../../images/lab03/img03.png)
+
+# Задание B: text_stats
+
 # КОД
 ```python
 # ЛР3: normalize, tokenize, count_freq, top_n
