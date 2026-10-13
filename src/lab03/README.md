@@ -50,7 +50,7 @@ top_n(..., n=2) → [("aa",2), ("bb",2)] (алфавитная сортиров�
 
 ![](../../images/lab03/img04.png)
 
-# КОД text.py
+# `КОД text.py`
 ```python
 # ЛР3: normalize, tokenize, count_freq, top_n
 import re
