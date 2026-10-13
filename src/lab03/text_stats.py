@@ -5,18 +5,13 @@ import io
 sys.stdin = io.TextIOWrapper(sys.stdin.buffer, encoding='cp866') # фикс кодировки для Windows
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8') # раскодировка для функций
 
-# путь к папке lib (лежит на уровень выше lab03, в src/)
-CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-PARENT_DIR = os.path.dirname(CURRENT_DIR)
-LIB_DIR = os.path.join(PARENT_DIR, "lib")
-
 sys.path.insert(0, LIB_DIR)
 
 from text import normalize, tokenize, count_freq, top_n
 
 def main() -> None:
     text = sys.stdin.read()
-    normalized = normalize(text)
+    normalized = normalize(text) 
     tokens = tokenize(normalized)
     freq = count_freq(tokens)
     top = top_n(freq, n=5)
