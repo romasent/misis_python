@@ -1,7 +1,16 @@
 import sys
 import os
+import io
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "lib")) # добавляем папку lib в sys.path для запуска в консоли
+sys.stdin = io.TextIOWrapper(sys.stdin.buffer, encoding='cp866') # фикс кодировки для Windows
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8') # раскодировка для функций
+
+# путь к папке lib (лежит на уровень выше lab03, в src/)
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+PARENT_DIR = os.path.dirname(CURRENT_DIR)
+LIB_DIR = os.path.join(PARENT_DIR, "lib")
+
+sys.path.insert(0, LIB_DIR)
 
 from text import normalize, tokenize, count_freq, top_n
 
