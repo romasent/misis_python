@@ -13,8 +13,8 @@ python src/lab04/text_report.py --in data/input.txt --out data/report.csv
 
 ## `Задание A: io_txt_csv.py`
 Функции read_text (чтение) и write_csv (запись с проверкой длины строк).
-![](images/lab04/img01.png)
+![Скриншот](images/lab04/img01.png)
 
 ## `Задание B: text_report.py`
 Скрипт читает текст, считает частоты (lib.text), сортирует (count ↓, слово ↑) и создаёт CSV. Выводит Топ-5 в консоль.
-![](images/lab04/img02.png)
+![Скриншот](images/lab04/img02.png)
