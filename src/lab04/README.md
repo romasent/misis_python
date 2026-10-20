@@ -8,10 +8,10 @@ python src/lab04/text_report.py --in data/input.txt --out data/report.csv
 ### `Краевые случаи (политика поведения)`
 1. Файл не существует: выводится "Файл не найден: <путь>", скрипт завершается с кодом 1 (без traceback).
 2. Пустой вход: программа не падает, report.csv создается и содержит только word,count.
-3. Для нестандартной кодировки (не UTF-8): кодировка cp1251 -> добавьте флаг: --encoding cp1251 (python src/lab04/text_report.py --encoding cp1251).
 
-### Запуск с пустыми входящими данными.
+![](/images/lab04/img03.png)
 
+4. Для нестандартной кодировки (не UTF-8): кодировка cp1251 -> добавьте флаг: --encoding cp1251 (python src/lab04/text_report.py --encoding cp1251).
 
 ## `Задание A: io_txt_csv.py`
 Функции read_text (чтение) и write_csv (запись с проверкой длины строк).
