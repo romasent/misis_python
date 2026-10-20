@@ -7,7 +7,9 @@ python src/lab04/text_report.py --in data/input.txt --out data/report.csv
 
 ### `Краевые случаи (политика поведения)`
 1. Файл не существует: выводится "Файл не найден: <путь>", скрипт завершается с кодом 1 (без traceback).
-2. Пустой вход: программа не падает, report.csv создается и содержит только word,count.
+
+![](/images/lab04/img04.png)
+3. Пустой вход: программа не падает, report.csv создается и содержит только word,count.
 
 ![](/images/lab04/img03.png)
 
