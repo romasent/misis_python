@@ -12,7 +12,7 @@ python src/lab04/text_report.py --in data/input.txt --out data/report.csv
 2. Пустой вход: программа не падает, report.csv создается и содержит только word,count.
 
 ![](/images/lab04/img03.png)
-
+![](/images/lab04/img05.png)
 3. Для нестандартной кодировки (не UTF-8): кодировка cp1251 -> добавьте флаг: --encoding cp1251 (python src/lab04/text_report.py --encoding cp1251).
 
 
