@@ -18,3 +18,5 @@
 ```bash
 python -m pip install -r requirements.txt
 python -m src.lab05.run_demo
+```
+![](/images/lab05/img01.png)
