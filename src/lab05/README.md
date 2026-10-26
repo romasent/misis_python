@@ -21,11 +21,15 @@ python -m src.lab05.run_demo
 ```
 ![](/images/lab05/img01.png)
 
-##
-![](/images/lab05/img02.png)
 ## people.csv -> people_from_csv.json
-![](/images/lab05/img03.png)
+
+![](/images/lab05/img02.png)
+
 ## people.json -> people_from_json.csv
-![](/images/lab05/img04.png)
+
+![](/images/lab05/img03.png)
+
 ## cities.csv -> cities.xlsx
-![](/images/lab05/img05.png)
+
+![](/images/lab05/img04.png)
+
