@@ -20,3 +20,12 @@ python -m pip install -r requirements.txt
 python -m src.lab05.run_demo
 ```
 ![](/images/lab05/img01.png)
+
+##
+![](/images/lab05/img02.png)
+
+![](/images/lab05/img03.png)
+
+![](/images/lab05/img04.png)
+
+![](/images/lab05/img05.png)
