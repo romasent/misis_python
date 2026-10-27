@@ -14,12 +14,16 @@
 * Ошибки: нет файла → `FileNotFoundError`; пустой/битый файл → `ValueError`.
 * XLSX: Используется библиотека openpyxl. Первая строка — заголовок, лист "Sheet1". Автоширина колонок рассчитывается по самому длинному тексту, но не менее 8 символов.
 
-## Запуск 3-х конвертаций сразу с установкой зависимостей.
+## Запуск конвертаций сразу с установкой зависимостей.
 ```bash
 python -m pip install -r requirements.txt
-python -m src.lab05.run_demo
+python -m src.lab05.json_csv
+python -m src.lab05.csv_xlsx
+
 ```
-![](/images/lab05/img01.png)
+![](/images/lab05/imgcsvjson.png)
+
+![](/images/lab05/imgxslx.png)
 
 ## people.csv -> people_from_csv.json
 
