@@ -1,4 +1,3 @@
-"""Конвертации JSON -> CSV (только стандартная библиотека)."""
 
 import csv
 import json
@@ -64,3 +63,22 @@ def csv_to_json(csv_path: str, json_path: str) -> None:
     Path(json_path).parent.mkdir(parents=True, exist_ok=True)
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(rows, f, ensure_ascii=False, indent=2)
+
+if __name__ == "__main__":
+    BASE_DIR = Path(__file__).resolve().parents[2]
+    SAMPLES_DIR = BASE_DIR / "data" / "samples"
+    OUT_DIR = BASE_DIR / "data" / "out"
+    
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    print("Тест Задания А (JSON <-> CSV)")
+    
+    # Тест 1: JSON -> CSV
+    print(f"1. Конвертация {SAMPLES_DIR / 'people.json'} в {OUT_DIR / 'people_from_json.csv'}")
+    json_to_csv(SAMPLES_DIR / "people.json", OUT_DIR / "people_from_json.csv")
+    print("   Успешно.")
+    
+    # Тест 2: CSV -> JSON
+    print(f"2. Конвертация {SAMPLES_DIR / 'people.csv'} в {OUT_DIR / 'people_from_csv.json'}")
+    csv_to_json(SAMPLES_DIR / "people.csv", OUT_DIR / "people_from_csv.json")
+    print("   Успешно.")
