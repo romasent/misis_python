@@ -21,7 +21,7 @@ python -m src.lab05.json_csv
 python -m src.lab05.csv_xlsx
 
 ```
-![](/images/lab05/imgcsvjson.png)
+![](/images/lab05/imgjsoncsv.png)
 
 ![](/images/lab05/imgxslx.png)
 
