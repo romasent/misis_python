@@ -41,3 +41,19 @@ def csv_to_xlsx(csv_path: str, xlsx_path: str) -> None:
 
     Path(xlsx_path).parent.mkdir(parents=True, exist_ok=True)
     wb.save(xlsx_path)
+
+if __name__ == "__main__":
+    BASE_DIR = Path(__file__).resolve().parents[2]
+    SAMPLES_DIR = BASE_DIR / "data" / "samples"
+    OUT_DIR = BASE_DIR / "data" / "out"
+    
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    print("Тест Задания Б (CSV -> XLSX)")
+    
+    input_file = SAMPLES_DIR / "cities.csv"
+    output_file = OUT_DIR / "people.xlsx"
+    
+    print(f"Конвертация {input_file} в {output_file}")
+    csv_to_xlsx(input_file, output_file)
+    print("Успешно.")
