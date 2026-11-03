@@ -74,6 +74,7 @@ python -m src.lab06.cli_convert json2csv --help
 ## Скриншоты
 
 cat -n
+![](/images/lab06/img01.png)
 
 stats --top
 
