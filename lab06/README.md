@@ -16,12 +16,13 @@ python -m src.lab06.cli_text cat --input data/samples/people.txt -n
 python -m src.lab06.cli_text stats --input data/samples/people.txt --top 3
 cli_convert.py
 ```
+### cli_convert.py
 ```bash
 python -m src.lab06.cli_convert json2csv --in data/samples/people.json --out data/out/people.csv
 python -m src.lab06.cli_convert csv2json --in data/out/people.csv --out data/out/people2.json
 python -m src.lab06.cli_convert csv2xlsx --in data/out/people.csv --out data/out/people.xlsx
 ```
-Справка
+### Справка
 ```bash
 python -m src.lab06.cli_text --help
 python -m src.lab06.cli_convert --help
