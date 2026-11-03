@@ -6,12 +6,6 @@ from pathlib import Path
 try:
     from src.lab05.json_csv import json_to_csv, csv_to_json
     from src.lab05.csv_xlsx import csv_to_xlsx
-except ImportError:
-    # Заглушки для локальной проверки CLI (удалите в финальной версии)
-    def json_to_csv(src, dst): Path(dst).write_text("id,name\n", encoding="utf-8")
-    def csv_to_json(src, dst): Path(dst).write_text("[]", encoding="utf-8")
-    def csv_to_xlsx(src, dst): Path(dst).write_text("(xlsx)", encoding="utf-8")
-
 
 def _check_input(path: Path) -> bool:
     if not path.exists():
