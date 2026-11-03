@@ -77,6 +77,7 @@ cat -n
 ![](/images/lab06/img01.png)
 
 stats --top
+![](/images/lab06/img02.png)
 
 json2csv
 
