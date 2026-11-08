@@ -80,10 +80,14 @@ stats --top
 ![](/images/lab06/img02.png)
 
 json2csv
+![](/images/lab06/img03_csvout.png)
 
 csv2json
+![](/images/lab06/img05.png)
 
 csv2xlsx
+![](/images/lab06/img06.png)
 
 --help
+![](/images/lab06/img06_help.png)
 
