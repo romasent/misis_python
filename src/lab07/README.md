@@ -3,8 +3,8 @@
 
 ## Результаты проверки и графики
 
-![](../images/lab07/check_ok.png)
+![](../../images/lab07/check_ok.png)
 
-![](../images/lab07/bench_console.png)
+![](../../images/lab07/bench_console.png)
 
-![](../images/lab07/sorts_bench.png)
+![](../../images/lab07/sorts_bench.png)
