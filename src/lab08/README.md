@@ -37,17 +37,22 @@ for s in students:
     print(format_student(s))
 
 students_to_json(students, "data/lab08/students_output.json")
+```
 
 ![](../../images/lab08/valid_run.png)
 
 # 2. Проверка возраста на конкретную дату
+```
 s_bday = make_student("Петров Алексей", "2007-09-20", "БИВТ-26-6-2", 3.85)
 print(student_age(s_bday, today=date(2026, 9, 19)))  # 18
 print(student_age(s_bday, today=date(2026, 9, 20)))  # 19
+```
 
 # 3. Обработка битых записей (политика strict)
+```
 students_from_json("data/lab08/students_bad.json")
 # ValueError: Ошибка валидации в записи №2: Поле 'birthdate' содержит некорректную дату '2003-02-30': day is out of range for month
+```
 
 ![](../../images/lab08/bad_date.png)
 
