@@ -6,10 +6,10 @@
 ### check
 
 ![](../../images/lab07/check_ok.png)
-### bench
+### bench таблицей через консоль
 
 ![](../../images/lab07/bench_console.png)
 
-### bench таблицей
+### bench графиком
 
 ![](../../images/lab07/sorts_bench.png)
