@@ -1,10 +1,5 @@
 def bubble_sort(nums: list[int]) -> list[int]:
-    """Новый список, отсортированный по возрастанию. Исходный не меняется.
-
-    bubble_sort([3, 1, 2]) -> [1, 2, 3]
-    bubble_sort([2, 2, 1]) -> [1, 2, 2]
-    bubble_sort([]) -> []
-    """
+    """Новый список, отсортированный по возрастанию. Исходный не меняется."""
     arr = list(nums)
     n = len(arr)
     for i in range(n - 1):
@@ -64,8 +59,7 @@ def _merge(left: list[int], right: list[int]) -> list[int]:
 
 def merge_sort(nums: list[int]) -> list[int]:
     """(★) Итеративная сортировка слиянием снизу вверх (без рекурсии).
-    Исходный список не меняется.
-    """
+    Исходный список не меняется."""
     arr = list(nums)
     n = len(arr)
     width = 1
@@ -79,9 +73,8 @@ def merge_sort(nums: list[int]) -> list[int]:
 
 
 def counting_sort(nums: list[int], lo: int, hi: int) -> list[int]:
-    """(★) Сортировка подсчётом для целых чисел в известном диапазоне [lo, hi].
-    Исходный список не меняется.
-    """
+    """Сортировка подсчётом для целых чисел в известном диапазоне [lo, hi].
+    Исходный список не меняется."""
     if lo > hi:
         raise ValueError("Нижняя граница lo не может быть больше верхней hi")
 
